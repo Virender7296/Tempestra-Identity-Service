@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Features\Identities\Commands\" />
+    <Folder Include="Features\Identities\DTOs\" />
+    <Folder Include="Features\Identities\Handlers\" />
+    <Folder Include="Features\Identities\Queries\" />
+    <Folder Include="Features\Identities\Validators\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+</Project>
