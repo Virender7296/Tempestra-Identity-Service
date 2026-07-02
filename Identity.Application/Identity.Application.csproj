@@ -8,12 +8,15 @@
 
   <ItemGroup>
     <Folder Include="Behaviors\" />
-    <Folder Include="Features\Identities\Commands\" />
-    <Folder Include="Features\Identities\DTOs\" />
     <Folder Include="Features\Identities\Handlers\" />
     <Folder Include="Features\Identities\Queries\" />
     <Folder Include="Features\Identities\Validators\" />
     <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.19.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.19.1" />
   </ItemGroup>
 
   <ItemGroup>
